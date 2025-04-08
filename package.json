@@ -1,0 +1,40 @@
+{
+  "name": "teste-novo-mrt-arteris",
+  "version": "1.0.0",
+  "description": "Projeto de testes automatizados no novo MRT Arteris",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx standard",
+    "lint:fix": "npx standard --fix",
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "standard": {
+    "globals": [
+      "beforeEach",
+      "context",
+      "cy",
+      "Cypress",
+      "describe",
+      "it"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlsf82/curso-cypress-avancado.git"
+  },
+  "keywords": [
+    "cypress",
+    "cypress.io",
+    "testing"
+  ],
+  "author": "Mateus Silva Machado",
+  "license": "Tecsidel",
+  "homepage": "https://github.com/wlsf82/curso-cypress-avancado#readme",
+  "devDependencies": {
+    "cypress": "^6.6.0",
+    "cypress-localstorage-commands": "^1.4.1",
+    "faker": "^5.4.0",
+    "standardjs": "^1.0.0-alpha"
+  }
+}
